@@ -1,4 +1,4 @@
-import ClientComponent from "@/components/Client/ClientComponent"
+import ClientComponent from "@/components/Clients/ClientComponent"
 import React from "react"
 
 const ClientPage = () => {

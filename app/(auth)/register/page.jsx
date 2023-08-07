@@ -1,5 +1,4 @@
 import RegisterComponent from "@/components/Auth/Register"
-import React from "react"
 
 const RegisterPage = () => {
   return (

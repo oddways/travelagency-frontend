@@ -10,6 +10,7 @@ const Navbar = () => {
 
   return (
     <div className="w-full h-[70px] border-b border-black bg-white shadow-sm shadow-black flex items-center justify-between py-2 px-4">
+      {/* Menubar */}
       <GiHamburgerMenu
         size={20}
         className="cursor-pointer"
@@ -17,6 +18,7 @@ const Navbar = () => {
         color="black"
       />
 
+      {/* Left section */}
       <section className="flex items-center gap-2">
         <BsFillBellFill size="20" />
         <p className="text-xs">Kelvin</p>

@@ -5,17 +5,18 @@ import { AiOutlineSchedule } from "react-icons/ai"
 import { BiSolidReport } from "react-icons/bi"
 import { BsChatDots } from "react-icons/bs"
 
-const UserInfo = [
+export const UserInfo = [
   {
     id: 1,
     fullname: "Odusote Mayokun",
+    middlename: "Doe",
     placeofbirth: "Nigeria",
     maritalstatus: "married",
     dateofbirth: "04/11/2012",
     currentoccupation: "Engineer",
     address: "No 2, Oloro Street Bank Olodo, Ibadan, Oyo State, Nigeria",
     countryofinterest: "Iceland",
-    email: "adegoketemitope1909@abc.com",
+    email: "adegoke@gmail.com",
     gender: "Female",
     countryofcitizenship: "Nigeria, Uganda",
     Education: "Bachelor's Degree",
@@ -28,13 +29,14 @@ const UserInfo = [
   {
     id: 2,
     fullname: "Emmanuel Olaniyi",
+    middlename: "Doe",
     placeofbirth: "Nigeria",
     maritalstatus: "single",
     dateofbirth: "10/12/2000",
     currentoccupation: "Medical Doctor",
     address: "No 5, Thompson Street, Ikeja, Lagos State, Nigeria",
     countryofinterest: "Germany",
-    email: "emmanuelolaniyi232@gmail.com",
+    email: "emmanuel2@gmail.com",
     gender: "Male",
     countryofcitizenship: "Nigeria",
     Education: "Bachelor's Degree",
@@ -47,6 +49,7 @@ const UserInfo = [
   {
     id: 3,
     fullname: "Segun Akande",
+    middlename: "Doe",
     placeofbirth: "Nigeria",
     maritalstatus: "married",
     dateofbirth: "10/12/1990",
@@ -66,6 +69,7 @@ const UserInfo = [
   {
     id: 4,
     fullname: "Titilayo Ojo",
+    middlename: "Doe",
     placeofbirth: "Nigeria",
     maritalstatus: "single",
     dateofbirth: "10/12/2004",
@@ -85,6 +89,7 @@ const UserInfo = [
   {
     id: 5,
     fullname: "Lateef Bello",
+    middlename: "Doe",
     placeofbirth: "Nigeria",
     maritalstatus: "married",
     dateofbirth: "29/03/1994",
@@ -105,6 +110,7 @@ const UserInfo = [
   {
     id: 6,
     fullname: "Jude Deku",
+    middlename: "Doe",
     placeofbirth: "Nigeria",
     maritalstatus: "single",
     dateofbirth: "13/08/1992",

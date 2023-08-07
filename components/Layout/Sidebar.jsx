@@ -18,6 +18,7 @@ const Sidebar = () => {
             : "w-[20%] relative md:w-[35%] lg:w-[10%] "
         }   md:flex flex-col z-10 min-h-screen bg-white shadow-sm shadow-black duration-500 ease-in-out`}
       >
+        {/* Close nav button */}
         {toggle && (
           <AiFillCloseCircle
             className="md:hidden absolute top-3 right-3 cursor-pointer"
@@ -36,6 +37,7 @@ const Sidebar = () => {
                 : "w-[50px] md:w-[100px] md:h-[100px] h-[50px]"
             } duration-500 ease-in-out  flex items-center justify-center relative`}
           >
+            {/* sidebar logo */}
             <Image
               src={"/images/logo.jpg"}
               alt="logo"
@@ -44,6 +46,7 @@ const Sidebar = () => {
             />
           </Link>
 
+          {/* Links */}
           <div className=" mt-[50px] flex flex-col items-center">
             {sideNavLinks?.map((nav, i) => (
               <Link
@@ -51,7 +54,9 @@ const Sidebar = () => {
                 className="w-full  h-[50px] flex items-center justify-center px-2 gap-2 mt-4 duration-500 ease-in-out rounded-xl group hover:bg-gray-400 "
                 key={i}
               >
+                {/* Logo */}
                 {nav.logo}
+                {/* Title */}
                 {toggle && (
                   <p className="whitespace-nowrap text-xs w-[50px] duration-500 ease-in-out group-hover:text-white">
                     {nav.text}
