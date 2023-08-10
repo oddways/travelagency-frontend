@@ -53,10 +53,10 @@ const WorkspaceComponent = () => {
               <p className="self-start text-xs md:text-sm text-gray-600 whitespace-nowrap">
                 You added a new client
               </p>
-              <p className="self-end text-xs md:text-sm text-yellow-600 whitespace-nowrap">
+              <p className="self-end md:self-start text-xs md:text-sm text-yellow-600 whitespace-nowrap">
                 Odusote Mayorkun
               </p>
-              <p className="self-end px-3 mt-1 py-2 border-l-2 border-yellow-600 bg-yellow-200  text-xs md:text-sm text-gray-600 whitespace-nowrap">
+              <p className="self-end md:self-start px-3 mt-1 py-2 border-l-2 border-yellow-600 bg-yellow-200  text-xs md:text-sm text-gray-600 whitespace-nowrap">
                 Status: Pending
               </p>
             </div>
@@ -85,7 +85,7 @@ const WorkspaceComponent = () => {
                   Odusote
                 </span>
               </p>
-              <p className=" text-xs md:text-sm text-gray-600 whitespace-nowrap">
+              <p className=" text-xs lg:text-sm text-gray-600 whitespace-nowrap">
                 Due on: 1/21/2021 Created on: 1/15/2021
               </p>
             </div>
