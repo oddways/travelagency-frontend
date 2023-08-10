@@ -10,7 +10,7 @@ const WorkspaceComponent = () => {
       <p className="text-sm font-semibold mt-[15px]">Overview</p>
 
       {/* Overview List */}
-      <section className="w-full grid grid-cols-1 grid-rows-3 lg:grid-cols-2 lg:grid-rows-2 gap-4 ">
+      <section className="w-full grid grid-cols-1 grid-rows-3 md:grid-cols-2 lg:grid-rows-2 gap-4 ">
         {/*  */}
         {/* Agenda */}
         <div className="w-full h-[200px] border-t-8 border-yellow-600 flex flex-col items-start shadow-md shadow-black rounded-md ">
