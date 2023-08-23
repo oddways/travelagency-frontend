@@ -15,7 +15,7 @@ const Sidebar = () => {
         className={`${
           toggle
             ? "w-[70%] md:w-[20%] flex fixed md:relative "
-            : "w-[20%] relative md:w-[35%] lg:w-[10%] "
+            : "w-[20%] fixed md:relative md:w-[35%] lg:w-[10%] "
         }   md:flex flex-col z-10 min-h-screen bg-white shadow-sm shadow-black duration-500 ease-in-out`}
       >
         {/* Close nav button */}
